@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="gameover-wrapper">
+        <div class="gameover-container">
+            <div class="gameover-message">
+                <div>
+                    Ahh, Game Over. You need to start again!
+                </div>
+                <div class="final-score">
+                    Score :
+                </div>
+            </div>
+            <button class=" button gameover-ok"
+                onclick="document.getElementsByClassName('gameover-wrapper')[0].style.display='none'">Ok</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="options">
+            <div>
+                <button class="button" id="start-button">Start</button>
+            </div>
+            <div class="score">
+                <div class="score-title">Score : </div>
+                <div class="score-value">0</div>
+            </div>
+        </div>
+        <div class="snake-container">
+
+
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
